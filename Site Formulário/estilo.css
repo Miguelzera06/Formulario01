@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+}
+
+body{
+    background-color: hsl(183, 43%, 48%);
+    align-items: center;
+}
+
+body > .form-users{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+  
+}
+
+
+.form-users > input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(54, 56, 56);
+    color: white;
+} 
+
+.form-users > input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(54, 56, 56);
+    color: white;
+} 
+
+.form-users > input::placeholder{
+    color: rgb(214, 212, 212);
+}
+
+.form-users > label {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#DDD{
+    background-color: rgb(54, 56, 56);
+    color: white;
+    border-radius: 5px;
+}
+
+.button-box > :hover{
+      color: rgb(122, 122, 122);
+      transition: 1.2s;
+            
+}
+
+.button-box > input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(91, 90, 92);
+    font-size: 17px;
+    color: white;
+}
+
+
+.login > input::placeholder{
+    color: rgb(214, 212, 212);
+}
+
+.login > input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(143, 146, 146);
+    color: white;
+}
+
+.login > label {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+#estados{
+    background-color: rgb(54, 56, 56);;
+    color: white;
+}
